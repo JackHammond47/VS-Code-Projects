@@ -245,7 +245,6 @@
 .hint i:after {
   transform: translate(-2px, 0) rotate(-45deg);
 }
-
 .hint input[type=checkbox]:checked ~ i:before {
   transform: translate(-2px, 0) rotate(45deg);
 }
