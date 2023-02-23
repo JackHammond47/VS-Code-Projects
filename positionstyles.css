@@ -65,7 +65,7 @@
 /* Activity 3 styles */ 
 .content3 {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 50px;
 }
 .red3 {
@@ -75,12 +75,12 @@
   grid-column: 1/3;
 } 
 .green3 {
-  width: 400px; 
+  width: 100%; 
   height: 200px; 
   background-color: green;
 } 
 .yellow3 {
-  width: 400px; 
+  width: 100%; 
   height: 200px; 
   background-color: gold; 
 } 
