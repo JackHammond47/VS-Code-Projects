@@ -1,0 +1,133 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: #113856;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+}
+/*
+#21897E (teal)
+#EAEFBD (cream)
+#343434 (charcoal)
+#EF8A17 (orange)
+#83B592 (mint)
+#113856 (navy)
+*/
+body{
+    background-color:#EAEFBD ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+nav a:hover{
+    background-color:#EF8A17 ;
+}
+.book{
+    background-color: #EAEFBD;
+}
+.join{
+    background-color:#83B592 ;
+}
+.book, .join{
+    color: #113856;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    background-color:#EF8A17 ;
+}
+#background{
+    background-color:#21897E ;
+}
+.msg{
+    background-color:#83B592 ;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer{
+    background-color:#21897E;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a:hover{
+    background-color: #EF8A17;
+}
+footer a{
+    color: #113856;
+    text-decoration: none;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img{
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}   
+p {
+    font-family: Garamond, Georgia, serif;
+} 
+h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+header{
+    background-color:#21897E ;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+/*
+Garamond, Georgia, serif;
+Verdana, Tahoma, sans-serif;
+*/
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
+}
