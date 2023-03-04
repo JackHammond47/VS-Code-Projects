@@ -195,6 +195,21 @@ nav{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #343434;
 }
+.river1{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+#riverID, #riverUT, #riverAZ{
+    align-self: center;
+    justify-self: center;
+}
+.Arizona, .river1 h3, .river_title{
+    text-align: center;
+}
+.Idaho, .Utah{
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

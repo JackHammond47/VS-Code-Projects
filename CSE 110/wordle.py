@@ -12,11 +12,15 @@ while len(guess) != len(word):
     print(f'Please guess a word with {len(word)} characters.')
     guess = input('What is your guess? ')
 
+hint = ''
 for i,letter in enumerate(word):
-    if i == guess.lower():
-        print(letter.lower(), end='')
+    if letter == guess.lower()[i]:
+        hint += letter.upper()
+    elif word.find(guess):
+        hint += letter.lower()
     else:
-        print('_', end='')
+        hint += '_'
+    print(f'Your hint is {hint}')
     guess = input('What is your guess? ')
     
 # while guess.lower() != word.lower():
