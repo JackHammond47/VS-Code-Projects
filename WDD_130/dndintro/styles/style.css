@@ -1,3 +1,115 @@
-img{
-    max-width: 200px;
+#content{
+    margin: 0 auto;
+    max-width: 1600px;
+    background-color: #E8EDDF;
+}
+/* .header{
+    list-style-type: none;
+    margin: 0;
+    background-color: aquamarine;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px auto;
+} */
+.header li a{
+    display: block;
+}
+.logo{
+    width: 80px;
+}
+#top_img{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #3C444C;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+    border: #E8EDDF solid 3px;
+}
+.header a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 100px;    /* if you want it vertically middle of the navbar */
+    text-decoration: none;
+    font-size: 25px;
+    color: #E8EDDF;
+}
+nav a:hover{
+    color: #E47A3C;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+}
+#game_night{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #3C444C solid;
+    box-shadow: 5px 5px 10px #343434;
+}
+#intro{
+    text-align: center;
+    font-size: 30px;
+}
+#intro p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#home_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 30px;
+    margin: 80px auto;
+}
+#home_grid a{
+    border-radius: 30px;
+    background: #E47A3C;
+    text-decoration: none;
+    color: #3C444C;
+    padding: 0px 10px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #3C444C;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    color: #E8EDDF;
+}
+#footer_left{
+    grid-column: 1/2;
+}
+#footer_right{
+    grid-column: 2/4;
+}
+footer a{
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #E47A3C;
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 5px;
+    color: #E8EDDF;
+}
+footer a:hover{
+    color: #E47A3C;
+}
+#top2_img{
+    width: 100%;
 }
