@@ -93,7 +93,6 @@ footer{
 }
 #footer_left{
     grid-column: 1/2;
-    /* text-align: center; */
     margin-left: 10px;
 }
 #footer_right{
@@ -109,9 +108,7 @@ footer a{
     padding: 5px;
     color: #E8EDDF;
 }
-footer p{
-    /* text-align: center; */
-}
+
 footer a:hover{
     color: #E47A3C;
 }
