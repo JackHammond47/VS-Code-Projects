@@ -93,6 +93,8 @@ footer{
 }
 #footer_left{
     grid-column: 1/2;
+    /* text-align: center; */
+    margin-left: 10px;
 }
 #footer_right{
     grid-column: 2/4;
@@ -103,9 +105,12 @@ footer a{
     border-width: 2px;
     border-color: #E47A3C;
     text-decoration: none;
-    margin: 10px 5px;
+    margin: 10px 1px;
     padding: 5px;
     color: #E8EDDF;
+}
+footer p{
+    /* text-align: center; */
 }
 footer a:hover{
     color: #E47A3C;
