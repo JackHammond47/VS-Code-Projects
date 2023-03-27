@@ -157,15 +157,12 @@ footer a:hover{
 #rulebook{
     border: 2px solid black;
     text-decoration: none;
-    color: #E47A3C;
     background-color: #9A031E;
     padding: 25px;
     display: block;
     width: 20%;
     margin: 0 auto;
     font-size: 22px;
-    color: #3C444C;
-    color: #E47A3C;
     color: #E8EDDF;
 }
 #add1, #add2{
