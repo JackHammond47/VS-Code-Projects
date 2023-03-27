@@ -1,0 +1,5 @@
+apple,WA,2.00
+cherry,UT,2.50
+grape,CA,3.00
+lemon,FL,5.00
+plum,ID,2.25

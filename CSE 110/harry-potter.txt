@@ -1,0 +1,9 @@
+Title,Lifetime Gross,Max Theaters,Opening Weekend,Opening Theaters,Release Date
+Harry Potter and the Deathly Hallows: Part 2,381011219,4375,169189427,4375,Jul 15 2011
+Harry Potter and the Sorcerer's Stone,317575550,3672,90294621,3672,Nov 16 2001
+Harry Potter and the Half-Blood Prince,301959197,4455,77835727,4325,Jul 15 2009
+Harry Potter and the Deathly Hallows: Part 1,295983305,4125,125017372,4125,Nov 19 2010
+Harry Potter and the Order of the Phoenix,292004738,4285,77108414,4285,Jul 11 2007
+Harry Potter and the Goblet of Fire,290013036,3858,102685961,3858,Nov 18 2005
+Harry Potter and the Chamber of Secrets,261988482,3682,88357488,3682,Nov 15 2002
+Harry Potter and the Prisoner of Azkaban,249541069,3855,93687367,3855,Jun 4 2004
