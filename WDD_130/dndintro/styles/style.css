@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Medieval;
+    src: url();
+}
 #content{
     margin: 0 auto;
     max-width: 1600px;
@@ -167,4 +171,47 @@ footer a:hover{
 }
 #add1, #add2{
     color: #9A031E;
+}
+#top3{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+#top3, #grid3{
+    font-size: 22px;
+}
+#grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    margin: 100px 30px;
+}
+#group{
+    width: 90%;
+    border: black solid 3px;
+}
+#compass{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+#grid3_5{
+    margin-top: 30px;
+}
+#grid3_2, #grid3_3, #grid3_4, #grid3_5{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.link_below{
+    text-decoration: none;
+    border: #ae5929 solid 2px;
+    background-color: #E47A3C;
+    color: black;
+    padding: 0 5px;
+}
+.link_paragraph{
+    color: #2431a5;
 }
